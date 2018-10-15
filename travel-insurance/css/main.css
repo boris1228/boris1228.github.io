@@ -2047,11 +2047,11 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-home {
   display: table;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   min-height: 786px;
-  background-image: url(../images/accounting-alone-application-938965.jpg);
-  background-size: 100%;
+  background-image: url(../images/architecture-buildings-canada-935474.jpg);
+  background-size: cover;
   position: relative;
   overflow: hidden;
 }
@@ -3096,6 +3096,9 @@ html.no-csstransitions .home-content__main {
 
 .item-plan__block {
   background: #FFFFFF;
+  border-style: solid;
+  border-color: #008d44;
+  border-width: 5px;
   border-radius: 5px;
   padding: 5.4rem 4rem 4.8rem;
   margin-bottom: 4rem;
